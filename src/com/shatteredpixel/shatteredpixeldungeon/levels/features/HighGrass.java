@@ -95,7 +95,7 @@ public class HighGrass {
                     	level.drop(new PotionOfHealing().identify(), pos).sprite.drop();
                     }                     
                     if (Random.Int(15) == 0) {
-                    	level.drop(new Dart(Random.Int(3)+1), pos).sprite.drop();
+                    	level.drop(new ScrollOfUpgrade().identify(), pos).sprite.drop();
                     }
                     if (Random.Int(20) == 0) {
                     	level.drop(new ScrollOfIdentify().identify(), pos).sprite.drop();
